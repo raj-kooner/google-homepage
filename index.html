@@ -34,7 +34,7 @@
     display: flexbox;
     position:relative;
     margin:auto;
-    top: 250px;
+    top: 220px;
     
 
 }
@@ -43,6 +43,54 @@
 
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
+
+.buttons{
+
+    width: 400px;
+    height:50px;
+    display: flexbox;
+    position: relative;
+    margin: auto;
+    top: 260px;
+}
+
+#GSB {
+
+    position: absolute;
+    background-color:#f2f2f2;
+    border-radius: 5px;
+    width:140px;
+    height: 40px;
+    left:60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+#IFL {
+
+    position: absolute;
+    background-color:#f2f2f2;
+    border-radius: 5px;
+    left:210px;
+    width:140px;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+
+#IFL:hover,#GSB:hover {
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+
 
 .glass{
 
@@ -301,6 +349,13 @@
                 <label for="Search Bar"></label>
                 <input id="text" type="text" placeholder="|"></form></div>
         <div class="mic"><img style="cursor: pointer;" src="Mic.png"></div>
+    </div>
+    <div class="buttons">
+
+        <button id="GSB" type="button">Google Search</button>
+        <button id="IFL" type="button">I'm Feeling Lucky</button>
+
+
     </div>
 
     <div id="bottom_outer">
